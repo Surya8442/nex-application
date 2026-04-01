@@ -39,6 +39,18 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<server>
+      <id>maven-releases</id>
+      <username>admin</username>
+      <password>admin@123</password>
+    </server>
+  	<server>
+      <id>maven-snapshots</id>
+      <username>admin</username>
+      <password>admin@123</password>
+    </server>
+
 
 	<developers>
 		<developer>
